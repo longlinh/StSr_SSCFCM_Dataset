@@ -4,7 +4,7 @@ Dataset for the paper: **"Semi-Supervised Collaborative Fuzzy Clustering With a 
 
 Authors: Xuan Hoang Nguyen, Dinh Sinh Mai, Long Giang Nguyen, Trong Hop Dang.
 
-Public mirror: <https://github.com/longlinh/isi2025_dataset>
+Public mirror: <https://github.com/longlinh/StSr_SSCFCM_Dataset>
 
 ## Overview
 
