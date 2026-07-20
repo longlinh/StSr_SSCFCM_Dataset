@@ -29,7 +29,8 @@ that the canonical versions and citations are preserved.
 | Processing level | Surface Reflectance (SR) |
 | Composite | 2020–2023 median, cloud-free |
 | Source platform | Google Earth Engine |
-| Spatial resolution | 30 m/pixel |
+| Native sensor resolution | 30 m/pixel (Landsat 8 OLI) |
+| Working grid | ~50 m/pixel — exported from GEE at `scale=50` (0.000449°, EPSG:4326) |
 | Coordinate system | EPSG:4326 (WGS84) |
 | Spectral bands used | B2 (blue), B3 (green), B4 (red), B5 (NIR) |
 
@@ -47,7 +48,7 @@ that the canonical versions and citations are preserved.
 Reference labels come from an **independent expert source**, not from any clustering output:
 ESA WorldCover 2021 (10 m, v200; CC BY 4.0), DOI [10.5281/zenodo.7254221](https://doi.org/10.5281/zenodo.7254221).
 
-The 10 m product is aggregated to the Landsat grid by majority vote and remapped to five
+The 10 m product is aggregated to the 50 m working grid by majority vote and remapped to five
 land-cover classes. Shrubland is merged into Forest because it covers < 0.06 % of the study areas.
 
 | Value | Class | Hanoi | Thanh Hoa | Ho Chi Minh |
