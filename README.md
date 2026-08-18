@@ -2,20 +2,19 @@
 
 Data accompanying the paper:
 
-> **Semi-Supervised Collaborative Fuzzy Clustering With a Softmax Regression-Based Self-Training Strategy for Landcover Classification From Remote Sensing Imagery**
+> **Semi-Supervised Collaborative Fuzzy Clustering with a Softmax Regression-Based Self-training Strategy for Landcover Classification from Remote Sensing Imagery**
 > Xuan Hoang Nguyen, Dinh Sinh Mai, Long Giang Nguyen, Trong Hop Dang.
 
-The paper reports **four experiments**. This repository hosts the two Landsat-8 datasets that we
-built ourselves (Experiments 2 and 3). Experiments 1 and 4 use established public benchmarks and
-are **not** redistributed here — please obtain them from their original providers (links below) so
-that the canonical versions and citations are preserved.
+The paper reports **three experiments**. This repository hosts the two Landsat-8 datasets that we
+built ourselves (Experiments 2 and 3). Experiment 1 uses an established public benchmark and
+is **not** redistributed here — please obtain it from its original provider (link below) so
+that the canonical version and citation are preserved.
 
 | # | Experiment | Dataset | Where to get it |
 |---|-----------|---------|-----------------|
 | 1 | Parameter sanity-check | Statlog **Landsat Satellite** (satimage) | UCI ML Repository, ID 146 — <https://archive.ics.uci.edu/dataset/146/statlog+landsat+satellite> |
 | 2 | Single-region classification | **Landsat-8 Hanoi** | This repo → `landsat8/hn/` |
 | 3 | Collaborative classification | **Landsat-8 Hanoi + Thanh Hoa + Ho Chi Minh City** | This repo → `landsat8/{hn,th2,hcm2}/` |
-| 4 | Hyperspectral validation | **Indian Pines** (AVIRIS, 200 bands, 16 classes) | Purdue / GIC benchmark — <https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes#Indian_Pines> |
 
 ---
 
