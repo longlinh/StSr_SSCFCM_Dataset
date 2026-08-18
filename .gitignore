@@ -1,0 +1,11 @@
+# Safety net: never publish these to the public dataset mirror.
+# Semi-supervised label masks and train/test splits are regenerated at runtime
+# per seed (see README "Reproducing the experimental protocol"), and the FCM /
+# raw-ESA products are the circular ground truth rejected in revision R1.
+*_FCM_*
+*_labeled_*pct.*
+*_groundtruth_esa_raw.tif
+*_NDVI.tif
+
+# Stray build/artifact files that must never land in the data repo.
+*.pdf
